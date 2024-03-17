@@ -1,0 +1,37 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
+}
+
+.assign-3-shape-1,
+.assign-3-shape-2,
+.assign-3-shape-3,
+.assign-3-shape-4 {
+  width: 400px;
+  height: 400px;
+  margin-bottom: 20px;
+  background-image: url('../images/image.png');
+  background-position: top left;
+  background-color: #aaa;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.assign-3-shape-1 {
+  background-repeat: no-repeat;
+}
+
+.assign-3-shape-2 {
+  background-repeat: repeat-y;
+  background-position: right;
+}
+
+.assign-3-shape-3 {
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+
+.assign-3-shape-4 {
+  background-repeat: repeat;
+}
